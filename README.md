@@ -13,6 +13,7 @@
 For now, simply clone this repository into your Sublime Text Packages directory:
 
 ```bash
+# Example for Mac users
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone https://github.com/dart-bridge/sublime-plugin
 ```
