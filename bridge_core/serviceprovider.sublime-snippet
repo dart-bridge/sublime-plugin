@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[part of ${2:app_services};
+
+class ${1:My}ServiceProvider implements ServiceProvider \{${3:
+  setUp(Container container) async \{
+    ${7://}
+  \}
+}${4:
+  load() async \{
+    ${8://}
+  \}
+}${5:
+  run() async \{
+    ${9://}
+  \}
+}${6:
+  tearDown() async \{
+    ${10://}
+  \}}
+\}]]></content>
+    <tabTrigger>serviceprovider</tabTrigger>
+    <description>Service Provider Declaration</description>
+    <scope>source.dart</scope>
+</snippet>

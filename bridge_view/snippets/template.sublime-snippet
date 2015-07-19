@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[template('${1:index}'${2:, withData: \{'${3:variable}': $3\}});]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>source.dart</scope>
+    <description>Load template</description>
+</snippet>

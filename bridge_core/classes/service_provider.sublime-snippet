@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ServiceProvider]]></content>
+    <description>bridge.core.ServiceProvider</description>
+    <tabTrigger>ServiceProvider</tabTrigger>
+    <scope>source.dart</scope>
+</snippet>

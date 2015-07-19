@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Application]]></content>
+    <description>bridge.core.Application</description>
+    <tabTrigger>Application</tabTrigger>
+    <scope>source.dart</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Environment]]></content>
+    <description>bridge.core.Environment</description>
+    <tabTrigger>Environment</tabTrigger>
+    <scope>source.dart</scope>
+</snippet>

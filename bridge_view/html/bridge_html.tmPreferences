@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^.*(?:\@(?:end|else)|&lt;/.*?&gt;).*$</string>
+		<string>\s*(?:&lt;/.*?&gt;|(?:\@(?:end|else)))</string>
 		<key>increaseIndentPattern</key>
-		<string>^.*(?:\@(?:(?&lt;=^\@)block|start|if|else|for)|&lt;(?!\s*\/|area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr).*?(?!\/\s*).&gt;).*$</string>
+		<string>\s*(?:&lt;(?!\s*\/|area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr)[^&lt;]*?(?!\/\s*).&gt;$|(?:\@(?:(?:else\s*)?if|for|(?&lt;=^\@)block)))</string>
 	</dict>
 	<key>uuid</key>
 	<string>d408c7f9-4402-4a22-98f9-156c144591b7</string>
