@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[@include (${1:'app'})]]></content>
+  <description>Include directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>include</tabTrigger>
+</snippet>

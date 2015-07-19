@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[@block (${1:'content'})${2:
+  ${3}
+@end block}]]></content>
+  <description>Block directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>block</tabTrigger>
+</snippet>

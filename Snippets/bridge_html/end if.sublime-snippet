@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[@end if]]></content>
+  <description>End if directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>end if</tabTrigger>
+</snippet>

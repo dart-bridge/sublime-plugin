@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[@for (${1:item} in ${2:list})
+  ${3}
+@end for]]></content>
+  <description>For directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>for</tabTrigger>
+</snippet>

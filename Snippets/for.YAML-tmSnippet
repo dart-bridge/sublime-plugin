@@ -1,5 +1,0 @@
-content: "@for (${1:item} in ${2:list})\n  ${3}\n@end for"
-name: For directive
-scope: source.bridge_html
-tabTrigger: for
-uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE

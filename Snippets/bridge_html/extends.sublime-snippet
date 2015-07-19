@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[@extends (${1:'app'})
+
+@block (${2:'content'})
+  ${3}
+@end block]]></content>
+  <description>Extends directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>extends</tabTrigger>
+</snippet>

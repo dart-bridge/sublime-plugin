@@ -1,5 +1,0 @@
-content: '@end for'
-name: End for directive
-scope: source.bridge_html
-tabTrigger: end for
-uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[@if (${1})
+  ${2}
+@end if]]></content>
+  <description>If directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>if</tabTrigger>
+</snippet>

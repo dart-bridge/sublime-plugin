@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[@end for]]></content>
+  <description>End for directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>end for</tabTrigger>
+</snippet>

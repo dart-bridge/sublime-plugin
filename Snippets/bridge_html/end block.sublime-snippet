@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[@end block]]></content>
+  <description>End block directive</description>
+  <scope>source.bridge_html</scope>
+  <tabTrigger>end block</tabTrigger>
+</snippet>
