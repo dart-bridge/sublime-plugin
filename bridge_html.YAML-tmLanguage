@@ -1,0 +1,93 @@
+name: Bridge Html
+scopeName: source.bridge_html
+fileTypes: [html]
+uuid: 8f087cf1-a5f1-4af5-96bc-f4d0f86ecf26
+
+patterns:
+-
+  match: \/\/.*
+  name: comment
+-
+  match: (?<!\\)\$\w+
+  name: keyword.language.bridge_html
+-
+  begin: (?<!\\)(\$)({)
+  end: (})
+  beginCaptures:
+    '1': {name: keyword.language.bridge_html}
+    '2': {name: punctuation.terminator.dart}
+  endCaptures:
+    '1': {name: punctuation.terminator.dart}
+  patterns:
+  - {include: source.dart}
+-
+  begin: (\@)(extends|include|for|(?:else\s*)?if|block)\s*(\()
+  end: (\))
+  beginCaptures:
+    '1': {name: punctuation.terminator.dart}
+    '2': {name: keyword.language.bridge_html}
+    '3': {name: punctuation.terminator.dart}
+  endCaptures:
+    '1': {name: punctuation.terminator.dart}
+  patterns:
+  - {include: source.dart}
+-
+  match: (\@)(else|end\s*(?:for|if|block))
+  captures:
+    '1': {name: punctuation.terminator.dart}
+    '2': {name: keyword.language.bridge_html}
+- 
+  match: (<\s*\/)\s*([\w-]+)\s*(>)
+  captures:
+    '1': {name: punctuation.terminator.dart}
+    '2': {name: keyword.language.bridge_html}
+    '3': {name: punctuation.terminator.dart}
+- 
+  begin: (<)
+  end: (\>)
+  captures:
+    '1': {name: punctuation.terminator.dart}
+  patterns:
+  - 
+    match: <|\>|\/
+    name: punctuation.terminator.dart
+  - 
+    match: (?<=<)\w+
+    name: keyword.language.bridge_html
+  -
+    match: (?<!\\)\$\w+
+    name: keyword.language.bridge_html
+  -
+    begin: (?<!\\)(\$)({)
+    end: (})
+    beginCaptures:
+      '1': {name: keyword.language.bridge_html}
+      '2': {name: punctuation.terminator.dart}
+    endCaptures:
+      '1': {name: punctuation.terminator.dart}
+    patterns:
+    - {include: source.dart}
+  - 
+    begin: (\w+)(=)(['"])
+    end: (\3)
+    beginCaptures:
+      '1': {name: constant.language.bridge_html}
+      '2': {name: punctuation.terminator.dart}
+      '3': {name: string}
+    endCaptures:
+      '1': {name: string}
+    patterns:
+    -
+      match: (?<!\\)\$\w+
+      name: keyword.language.bridge_html
+    -
+      begin: (?<!\\)(\$)({)
+      end: (})
+      beginCaptures:
+        '1': {name: keyword.language.bridge_html}
+        '2': {name: punctuation.terminator.dart}
+      endCaptures:
+        '1': {name: punctuation.terminator.dart}
+      patterns:
+      - {include: source.dart}
+    - {match: ., name: string}

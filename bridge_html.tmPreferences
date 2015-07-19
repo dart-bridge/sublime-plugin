@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Bridge Html</string>
+	<key>scope</key>
+	<string>source.bridge_html</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>^.*(?:\@(?:end|else)|&lt;/.*?&gt;).*$</string>
+		<key>increaseIndentPattern</key>
+		<string>^.*(?:\@(?:(?&lt;=^\@)block|start|if|else|for)|&lt;(?!\s*\/|area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr).*?(?!\/\s*).&gt;).*$</string>
+	</dict>
+	<key>uuid</key>
+	<string>d408c7f9-4402-4a22-98f9-156c144591b7</string>
+</dict>
+</plist>

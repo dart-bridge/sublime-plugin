@@ -1,0 +1,5 @@
+content: "@else if (${1})\n  ${2}"
+name: Else if directive
+scope: source.bridge_html
+tabTrigger: else if
+uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE

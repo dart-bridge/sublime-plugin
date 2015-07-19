@@ -1,0 +1,5 @@
+content: '@include (${1:''app''})'
+name: Include directive
+scope: source.bridge_html
+tabTrigger: include
+uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE

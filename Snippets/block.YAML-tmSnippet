@@ -1,0 +1,5 @@
+content: "@block (${1:'content'})${2:\n  ${3}\n@end block}"
+name: Block directive
+scope: source.bridge_html
+tabTrigger: block
+uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE

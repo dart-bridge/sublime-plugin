@@ -1,0 +1,5 @@
+content: \$${1:\{${2}\}}
+name: Variable
+scope: source.bridge_html
+tabTrigger: $
+uuid: 2DFA9510-6F88-4BC6-A409-DA4075DEA8FE
