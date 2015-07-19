@@ -2,12 +2,13 @@
 
 ## Features
 
-### Bridge HTML
-* Syntax highlighting
-* Snippets
-
 ### bridge.core
-* Coming up...
+* Class completion
+* Service Provider generator
+
+### bridge.view
+* Syntax highlighting for Bridge HTML
+* Snippets for Bridge HTML
 
 ## Usage
 For now, simply clone this repository into your Sublime Text Packages directory:
